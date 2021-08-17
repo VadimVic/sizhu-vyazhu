@@ -1,0 +1,21 @@
+.promo .wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 75px;
+}
+
+.icon-items {
+   width: 20%; 
+   text-align: center;
+   padding: 0 35px 0 35px;
+   border-color: 2px solid black;
+}
+
+
+.promo .main-text {
+    color: #497952;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    padding-top: auto;
+}
