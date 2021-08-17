@@ -1,1 +1,22 @@
 $font: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/open-sans-v23-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v23-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/open-sans-v23-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v23-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+         
+  }

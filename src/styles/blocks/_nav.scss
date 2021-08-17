@@ -1,0 +1,29 @@
+.nav {
+    background-color:#497952;
+}
+
+.nav_list {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    padding-top: 11px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FAFFFA;
+}

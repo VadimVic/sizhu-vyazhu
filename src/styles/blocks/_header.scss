@@ -1,0 +1,37 @@
+.header {
+    // position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    color: #fff;
+}
+
+.header .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-wrap {
+    display: flex;
+    margin-left: 96px;
+}
+
+.icon-wrap p {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.picture-wrap {
+    display: flex;
+    align-items: center;
+}
