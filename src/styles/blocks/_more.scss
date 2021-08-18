@@ -7,18 +7,37 @@
 }
 
 .info {
-    width: 48%;
+    width: 52%;
     margin-left: 40px;
 }
 
-.more p {
+.info-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
     font-size: 12px;
+    line-height: 25px;
+    display: flex;
+// align-items: center;
     text-align: justify;
+    padding-right: 30px;
 }
 
 .video {
     width: 360px;
     height: 213px;
-    border-color: 3px solid black;
+    border: 2px solid black;
     margin-left: 87px;
+}
+
+.read-more {
+    font-family: Open Sans;
+    font-size: 11px;
+    line-height: 15px;
+    color: #497952;
+    padding-left: 450px;
+}
+
+.more a {
+    text-decoration: none;
 }
