@@ -1,0 +1,38 @@
+.features .wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 75px;
+
+    @media (max-width: 680px) {
+        flex-direction: column;
+        align-items:center ;
+        }
+}
+
+.icon-items {
+    width: 20%; 
+    text-align: center;
+    padding: 0 35px 0 35px;
+    border-color: 2px solid black;
+   
+    @media (max-width: 680px) {
+        display: flex;
+        justify-content:flex-start  ;
+        width: 100%;
+        margin-bottom: 20px;
+        }
+}
+
+
+.features .main-text {
+    color: #497952;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    padding-top: auto;
+
+    
+    @media (max-width: 680px) {
+        margin-left: 50px;
+        }
+}
