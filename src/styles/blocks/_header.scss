@@ -10,11 +10,24 @@
 .header .wrapper {
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 1200px) {
+        flex-direction: column;
+        }
+         
 }
 
 .header-wrap {
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 767px) {
+        flex-direction: column;
+        }
+
+        @media (max-width: 1200px) {
+            margin-left: 25px;
+            }
 }
 
 .icon-wrap {
@@ -34,4 +47,16 @@
 .picture-wrap {
     display: flex;
     align-items: center;
+}
+
+.header a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #535353;
 }
