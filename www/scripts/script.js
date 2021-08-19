@@ -23,6 +23,11 @@
     });
   });
 
+  // Открытие меню на мобильном
+  $('.burger').on('click', function () {
+    $('.main-nav').slideToggle();
+  });
+
   });
 
 
